@@ -9,6 +9,6 @@ output "op" {
 }
 
 #wenever you want to print the variable in the group of words, you need to use the Bash ayntax:
-output "op" {
+output "ops" {
     value = "my first msg is ${var.sample}"
 }
