@@ -42,6 +42,8 @@ variable "sample_map" {
     } 
 }
 
+#printing the value
+
 output "sagar" {
     value = var.sample_map
   
@@ -50,3 +52,17 @@ output "sagar" {
 output "sarja" {
     value = "current batch is ${var.sample_map.batch} and mode is ${var.sample_map.mode} youtube channel is ${var.sample_map.training}"
 }
+
+
+# declaring an empty variable and passing the value in the *.tfvars file 
+
+variable "city" {}
+
+output "city_name" {
+    value = "name of the city is ${var.city}"
+   
+}
+
+
+
+
