@@ -48,5 +48,5 @@ output "sagar" {
 }
 
 output "sarja" {
-    value = "current batch is ${var.sample_map["batch"]} and mode is ${var.sample_map["mode"]} youtube channel is ${var.sample_map["training"]}"
+    value = "current batch is ${var.sample_map.batch} and mode is ${var.sample_map.mode} youtube channel is ${var.sample_map.training}"
 }
