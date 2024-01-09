@@ -42,7 +42,7 @@ variable "sample_map" {
     } 
 }
 
-output "name" {
+output "sagar" {
     value = var.sample_map
   
 }
