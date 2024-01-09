@@ -41,3 +41,8 @@ variable "sample_map" {
         training = "devopswithcloud"
     } 
 }
+
+output "name" {
+    value = var.sample_map
+  
+}
