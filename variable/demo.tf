@@ -31,3 +31,13 @@ output "crow" {
     value = "welcome to ${var.sample_list[0]} testing the numb ${var.sample_list[1]}"
   
 }
+
+#declaring map variable
+
+variable "sample_map" {
+    default = {
+        batch = "b55"
+        mode = "online"
+        training = "devopswithcloud"
+    } 
+}
