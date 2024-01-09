@@ -26,3 +26,8 @@ output "name" {
     value = var.sample_list[0]
   
 }
+
+output "name" {
+    value = "welcome to ${var.sample_list[0]} testing the numb ${var.sample_list[1]}"
+  
+}
