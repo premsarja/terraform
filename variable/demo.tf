@@ -12,3 +12,17 @@ output "op" {
 output "ops" {
     value = "my first msg is ${var.prem}"
 }
+
+#declaring a list variable
+variable "sample_list" {
+    default = [
+        "devops",
+        10,
+        "prems"
+    ]
+}
+
+output "name" {
+    value = var.sample_list[0]
+  
+}
