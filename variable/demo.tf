@@ -27,7 +27,7 @@ output "name" {
   
 }
 
-output "name" {
+output "crow" {
     value = "welcome to ${var.sample_list[0]} testing the numb ${var.sample_list[1]}"
   
 }
