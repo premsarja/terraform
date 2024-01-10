@@ -49,3 +49,8 @@ output "op5" {
 
 
 
+variable "country" {}
+
+output "o6" {
+  value = "my country name is ${var.country}"
+}
