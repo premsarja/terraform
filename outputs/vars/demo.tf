@@ -49,7 +49,6 @@ output "op5" {
 
 
 
-variable "pacchu" {}
 
 output "o6" {
   value = "my country name is ${var.pacchu}"
