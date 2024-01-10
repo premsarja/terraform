@@ -54,3 +54,7 @@ variable "pacchu" {}
 output "o6" {
   value = "my country name is ${var.pacchu}"
 }
+
+output "hero" {
+  value = "my fav hero name is ${var.hero}"
+}
