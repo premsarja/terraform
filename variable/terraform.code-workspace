@@ -1,0 +1,57 @@
+{
+	"folders": [
+		{
+			"name": "terraform",
+			"path": ".."
+		},
+		{
+			"name": "cart",
+			"path": "../../cart"
+		},
+		{
+			"name": "jenkins",
+			"path": "../../jenkins"
+		},
+		{
+			"name": "catalogue",
+			"path": "../../catalogue"
+		},
+		{
+			"name": "shipping",
+			"path": "../../shipping"
+		},
+		{
+			"name": "payment",
+			"path": "../../payment"
+		},
+		{
+			"name": "jenkins-shared-library",
+			"path": "../../jenkins-shared-library"
+		},
+		{
+			"name": "rabbitmq",
+			"path": "../../rabbitmq"
+		},
+		{
+			"name": "mysql",
+			"path": "../../mysql"
+		},
+		{
+			"name": "user",
+			"path": "../../user"
+		},
+		{
+			"name": "redis",
+			"path": "../../redis"
+		},
+		{
+			"name": "mongodb",
+			"path": "../../mongodb"
+		},
+		{
+			"name": "frontend",
+			"path": "../../frontend"
+		}
+	],
+	"settings": {}
+}
