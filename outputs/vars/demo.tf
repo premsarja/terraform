@@ -21,3 +21,8 @@ variable "sagar" {
 output "op2" {
   value = "i am ${var.sagar[0]} i m in ${var.sagar[1]} my country is ${var.sagar[2]}"
 }
+
+output "op3" {
+    value = "${var.prem} "
+  
+}
