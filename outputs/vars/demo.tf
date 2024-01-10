@@ -6,6 +6,6 @@ output "op" {
   value = var.prem
 }
 
-output "ops1" {
+output "op" {
   value = "welcome to the ${var.prem}"
 }
