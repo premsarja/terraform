@@ -1,3 +1,2 @@
-city = "madhyapradesh"
-state = "karnataka"
-country = "bharath"
+city        =   "madhyapradesh"
+country     =   "china"
