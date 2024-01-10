@@ -5,3 +5,7 @@ variable "prem" {
 output "op" {
   value = var.prem
 }
+
+output "ops1" {
+  value = "welcome to the ${var.prem}"
+}
