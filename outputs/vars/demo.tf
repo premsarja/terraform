@@ -26,3 +26,15 @@ output "op3" {
     value = "${var.prem} "
   
 }
+
+variable "map" {
+  default = {
+    name = "prem",
+    age = 50,
+    gender = "male",
+  }
+}
+
+output "op4" {
+  value = "my  name is ${var.map.name} and my age is ${var.map.age} and my gender is ${var.map.gender}"
+}
