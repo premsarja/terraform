@@ -3,5 +3,5 @@ variable "prem" {
 }
 
 output "op" {
-  value = "var.op"
+  value = "var.prem"
 }
