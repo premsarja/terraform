@@ -38,3 +38,14 @@ variable "map" {
 output "op4" {
   value = "my  name is ${var.map.name} and my age is ${var.map.age} and my gender is ${var.map.gender}"
 }
+
+
+variable "city" {}
+
+output "op5" {
+    value = "name of the city is ${var.city}"
+   
+}
+
+
+
