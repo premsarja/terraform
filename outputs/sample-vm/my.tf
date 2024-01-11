@@ -3,7 +3,7 @@ resource "aws_instance" "sagar" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "prem-tf-instance"
+    Name = "sagar-tf-instance"
   }
 }
 
