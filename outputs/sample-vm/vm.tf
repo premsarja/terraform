@@ -7,3 +7,5 @@ resource "aws_instance" "web" {
     name = "my-tf-instance"
   }
 }
+
+provider "aws" {}
