@@ -4,6 +4,6 @@ resource "aws_instance" "aws" {
   instance_type          = "t3.micro"
 
   tags = {
-    Name = "my-tf-instance"
+    Name = "prem-tf-instance"
   }
 }
