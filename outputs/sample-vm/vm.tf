@@ -19,4 +19,4 @@ resource "aws_instance" "web" {
   }
 }
 
-#provider "aws" {}
+provider "aws" {}
