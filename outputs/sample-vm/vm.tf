@@ -18,3 +18,5 @@ resource "aws_instance" "web" {
     Name = "web-tf-instance"
   }
 }
+
+provider "aws" {}
