@@ -7,4 +7,4 @@ resource "aws_instance" "sagar" {
   }
 }
 
- # Other provider configurations, such as access_key, secret_key, etc., can be added here.
+# Other provider configurations, such as access_key, secret_key, etc., can be added here.
