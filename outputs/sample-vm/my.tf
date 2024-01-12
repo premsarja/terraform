@@ -1,6 +1,6 @@
 resource "aws_instance" "sagar" {
   ami           = "ami-023c11a32b0207432"
-  instance_type = "t3.medium"
+  instance_type = "t3.micro"
 
   tags = {
     Name = "sagar-tf-instance"
@@ -8,3 +8,5 @@ resource "aws_instance" "sagar" {
 }
 
 # Other provider configurations, such as access_key, secret_key, etc., can be added here.
+
+
