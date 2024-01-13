@@ -1,3 +1,4 @@
+
 resource "aws_instance" "sarja" {
   count   = 2
   ami           = "ami-023c11a32b0207432"
