@@ -1,3 +1,3 @@
 variable "howmanyyouwant" {
-    default = 2
+    default = ["catalogue","user","cart"]
 }
