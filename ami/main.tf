@@ -5,7 +5,7 @@ data "aws_ami" "ami" {
 }
 
 resource "aws_instance" "example" {
-  count          = "length(var.howmanyyouwant)"
+  count          = length(var.howmanyyouwant)
   ami            = data.aws_ami.ami.id  # Corrected reference to AMI ID
   instance_type  = "t3.micro"
 
