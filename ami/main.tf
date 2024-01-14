@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
   instance_type  = "t3.micro"
 
   tags = {
-    Name = "terraform-sarja-instance-${count.index + 1}"
+    Name = "terraform-sarja-instance-${count.index}"
   }
 }
 
