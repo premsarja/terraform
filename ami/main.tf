@@ -5,12 +5,12 @@ data "aws_ami" "ami" {
 }
 
 resource "aws_instance" "example" {
-  count          = var.howmanyyouwant
+  count          = length(var.howmanyyouwant)
   ami            = data.aws_ami.ami.id  # Corrected reference to AMI ID
   instance_type  = "t3.micro"
 
   tags = {
-    Name = "terraform-sarja-instance ${count.index + 1}"
+    Name = "terraform-sarja-instance-${count.index + 1}"
   }
 }
 
