@@ -4,7 +4,7 @@ data "aws_ami" "ami" {
   owners           = ["self"]
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "ami" {
   count          = length(var.howmanyyouwant)
   ami            = data.aws_ami.ami.id  # Corrected reference to AMI ID
   instance_type  = "t3.micro"
