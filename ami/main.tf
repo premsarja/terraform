@@ -14,4 +14,8 @@ resource "aws_instance" "ami" {
   }
 }
 
+output "private_ip_address" {
+  value = aws_instance.ami.private_dns
+}
+
 
