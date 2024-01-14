@@ -10,7 +10,7 @@ resource "aws_instance" "example" {
   instance_type  = "t3.micro"
 
   tags = {
-    Name = "var.howmanyyouwant${count.index}"
+    Name = "${var.howmanyyouwant${count.index}}"
   }
 }
 
