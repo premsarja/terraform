@@ -14,8 +14,7 @@ resource "aws_instance" "ami" {
   }
 }
 
-output "private_dns_instance_0" {
-  value = aws_instance.ami[0].private_dns
+output "private_ip_address" {
+  value = [for instance in aws_instance.ami : instance.private_ip]
 }
-
 
