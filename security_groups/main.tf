@@ -22,6 +22,4 @@ resource "aws_security_group" "allow_ssh" {
   }
 }
 
-provider "aws" {
-  
-}
+provider "aws" {}
