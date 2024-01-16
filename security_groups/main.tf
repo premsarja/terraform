@@ -1,5 +1,5 @@
 
-resource "aws_security_group" "allow_sshs" {
+resource "aws_security_group" "allow_newssh" {
   name        = "allow_ssh"
   description = "Allow TLS inbound traffics"
 
@@ -19,6 +19,6 @@ resource "aws_security_group" "allow_sshs" {
   }
 
   tags = {
-    Name = "allow_ssh"
+    Name = "allow_newssh"
   }
 }
