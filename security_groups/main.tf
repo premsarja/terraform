@@ -1,6 +1,6 @@
 
-resource "aws_security_group" "allow_newssh" {
-  name        = "allow_ssh"
+resource "aws_security_group" "sagar" {
+  name        = "allow-sagar"
   description = "Allow TLS inbound traffics"
 
   ingress {
@@ -19,6 +19,6 @@ resource "aws_security_group" "allow_newssh" {
   }
 
   tags = {
-    Name = "allow_newssh"
+    Name = "allow_sagar"
   }
 }
