@@ -6,5 +6,5 @@ module "ec2" {
 }
 
 module "sg" {
-  source = "./security_group"
+  source = "./sg"
 }
