@@ -1,6 +1,6 @@
 #calling ec2 module
 
-module "a2" {
+module "sg" {
   source = "./ec2"
   sg = module.sg
 }
