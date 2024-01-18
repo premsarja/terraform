@@ -9,7 +9,7 @@ resource "aws_instance" "example" {
   }
 }
 
- variable "sg" {}
+variable "sg" {}
 
 # variable "sg" {
 #   type = set(string)
