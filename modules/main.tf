@@ -8,5 +8,3 @@ module "ec2" {
 module "aws_security_group" {
   source = "./security_group"
 }
-
-variable "sg" {}
