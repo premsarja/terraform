@@ -1,8 +1,8 @@
 #calling ec2 module
 
-module "ec2" {                        # any name we can give but source should br correct
+module "tata" {
   source = "./ec2"
-  sg  = module.sgid
+  sg  = module.sg.sgid
 }
 
 module "aws_security_group" {
