@@ -5,6 +5,6 @@ module "ec2" {
   sg     = module.sg
 }
 
-module "aws_security_group" {
+module "sg" {
   source = "./security_group"
 }
