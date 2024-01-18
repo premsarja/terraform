@@ -9,3 +9,7 @@ module "aws_security_group" {
   source = "./security_group"
 }
 
+module "sgid" {
+  source = "./sgid"
+  # Other module configurations...
+}
