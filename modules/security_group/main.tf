@@ -24,6 +24,6 @@ resource "aws_security_group" "sagar" {
   }
 }
 
-output "security_group" {
+output "sg" {
   value = "aws_security_group.sagar"
 }
