@@ -1,3 +1,5 @@
+# creating security group
+
 resource "aws_security_group" "sagar" {
   name        = "allow-sagar"
   description = "Allow TLS inbound traffics"
