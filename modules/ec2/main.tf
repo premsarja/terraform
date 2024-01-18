@@ -9,4 +9,5 @@ resource "aws_instance" "ex" {
     Name = "example-instance"
   }
 }
+
 variable "sg" {}
