@@ -2,7 +2,7 @@
 
 module "a2" {
   source = "./ec2"
-  sg = module.sg.sgid
+  sg = module.security_group.sgid
 }
 
 module "aws_security_group" {
