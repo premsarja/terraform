@@ -9,4 +9,4 @@ module "aws_security_group" {
   source = "./security_group"
 }
 
-variable "sgid" {}
+variable "sg" {}
