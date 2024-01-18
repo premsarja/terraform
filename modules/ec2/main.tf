@@ -12,7 +12,5 @@ resource "aws_instance" "ex" {
 # variable "sg" {}
 
 variable "sg" {
-  type = object({
-    sg = set(string)
-  })
+  type = set(string)
 }
