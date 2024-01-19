@@ -12,4 +12,7 @@ resource "aws_instance" "example" {
 variable "sg" {
   type = string
 }
-  
+
+output "sg" {
+  value = aws_security_group.sagar.id
+}  
