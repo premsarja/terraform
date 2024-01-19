@@ -25,5 +25,5 @@ resource "aws_security_group" "sagar" {
 }
 
 output "sg" {
-  value = "aws_security_group.sagar"
+  value = "aws_security_group.sagar_id"
 }
