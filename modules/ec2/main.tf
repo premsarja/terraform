@@ -5,7 +5,7 @@ resource "aws_instance" "example" {
   vpc_security_group_ids = [var.sg.sg]
 
   tags = {
-    Name = "ex"
+    Name = "example"
   }
 }
 
